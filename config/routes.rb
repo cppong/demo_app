@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'ccsf_rails/index'
+
+  get 'ccsf_rails/links'
+
+  get 'ccsf_rails/about'
+
   resources :microposts
 
   resources :users
